@@ -17,24 +17,20 @@ ESP32-based automatic night light using PIR motion + LDR sensors
 
 ## 🛠️ Hardware Used
 
-| Component                     | Purpose                              |
-|--------------------------------|---------------------------------------|
-| ESP32 Development Board        | Main microcontroller                  |
-| PIR Motion Sensor (HC-SR501)   | Detects human/animal movement         |
-| LDR Light Sensor Module        | Detects ambient light (day/night)     |
-| LED (5mm)                      | Output light                          |
-| 220 Ω Resistor                 | Current limiting for LED              |
-| Breadboard                     | Prototyping                           |
-| Male-to-Male Jumper Wires      | Connections                           |
-| Micro USB Cable                | Programming + power for ESP32         |
-| Arduino IDE                    | Programming environment               |
-
-### 🔧 Planned Upgrades
-- Relay Module (5V) + AC Bulb — control real room/street lighting
-- Buzzer Module — optional alert on motion
-- 16×2 LCD with I2C — live status display
-- Dedicated 5V Power Adapter — standalone operation
-
+1. ESP32 Development Board
+2. PIR Motion Sensor (HC-SR501)
+3. LDR Light Sensor Module
+4. LED (5 mm)
+5. 220 Ω Resistor
+6. Breadboard
+7. Male-to-Male Jumper Wires
+8. Micro USB Cable (for ESP32 programming and power supply)
+9. Laptop/PC with Arduino IDE
+10. Relay Module (5V)
+11. AC Bulb with Bulb Holder
+12. Buzzer Module
+13. 16×2 LCD Display with I2C Module
+14. ESP32 Power Adapter (5V)
 ---
 
 ## 🚀 Applications
