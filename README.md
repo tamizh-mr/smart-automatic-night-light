@@ -2,6 +2,8 @@
 ESP32-based automatic night light using PIR motion + LDR sensors
 # 💡 Smart Automatic Night Light
 
+> 🧪 This is a mini project — built for learning and hands-on practice with ESP32, sensors, and IoT logic.
+
 > An ESP32-based automatic lighting system that turns ON only at night when motion is detected — saving power by staying OFF during the day and when no one is around.
 
 ---
@@ -42,9 +44,16 @@ ESP32-based automatic night light using PIR motion + LDR sensors
 
 ---
 
-## 📸 Project Photos
+## 🔄 Project Flow
 
-*(Add your circuit/setup photos here — e.g. `photos/circuit.jpg`)*
+Since hardware photos aren't available yet, here's the logic flow of the system:
+
+1. System starts and continuously reads the PIR motion sensor and LDR light sensor
+2. Checks: is it dark **and** is motion detected?
+   - **No** → stays idle (day time or no motion) — bulb OFF
+   - **Yes** → turns ON the relay, LED, and buzzer; LCD shows "Motion Found"
+3. If no motion is detected for 10 seconds while active, everything turns OFF automatically
+4. This check repeats continuously every ~200ms
 
 ---
 
